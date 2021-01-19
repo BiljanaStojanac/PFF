@@ -1,7 +1,7 @@
 package keywordsAndSteps.test1;
 
 import org.openqa.selenium.*;
-import setup.BasePage;
+import base.BasePage;
 
 import java.util.ArrayList;
 import java.util.List;
