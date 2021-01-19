@@ -6,12 +6,12 @@ import org.junit.runner.RunWith;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/resources/features/test.feature",
+@CucumberOptions(features = "src/test/resources/features/login.feature",
 		strict = false,
 		plugin = "pretty",
-		glue = "tests")
+		glue = "keywordsAndSteps")
 /*glue = {"setup.driver",
                 "keywordsAndSteps/test1"})*/
-public class TestRunner {
+public class LoginRunner {
 
 }

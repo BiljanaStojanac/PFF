@@ -1,4 +1,4 @@
-package keywordsAndSteps.test1;
+package keywordsAndStepsEXAMPLE.test1;
 
 import org.openqa.selenium.*;
 import base.BasePage;

@@ -1,14 +1,11 @@
-package keywordsAndSteps.test1;
+package keywordsAndStepsEXAMPLE.test1;
 
 import cucumber.api.Scenario;
 import cucumber.api.java.Before;
-import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import org.junit.Test;
 import setup.logger.LoggerController;
-import setup.logger.LoggerSection;
 import setup.logger.LoggerStep;
 import setup.logger.LoggerTestCase;
 
@@ -16,12 +13,7 @@ import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 import java.time.Duration;
 import java.time.Instant;
-import java.util.Collections;
-import java.util.List;
 import java.util.concurrent.TimeUnit;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-import java.util.stream.Stream;
 
 public class Test1Steps {
 
