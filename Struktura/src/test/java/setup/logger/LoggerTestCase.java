@@ -39,8 +39,8 @@ public class LoggerTestCase {
 
     public void getFrequencyAndDamage() {
         String test = extractInt(nameOfTestCase);
-        frequency = Integer.parseInt(String.valueOf(test.charAt(0)));
-        damage = Integer.parseInt(String.valueOf(test.charAt(1)));
+//        frequency = Integer.parseInt(String.valueOf(test.charAt(0)));
+//        damage = Integer.parseInt(String.valueOf(test.charAt(1)));
     }
 
 

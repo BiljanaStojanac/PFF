@@ -7,7 +7,7 @@ import setup.driver.Setup;
 
 import java.util.List;
 
-public class BasePage {
+public class BasePage extends StepHandlers{
 
     protected WebDriver driver;
     protected WebDriverWait wait;
@@ -71,7 +71,6 @@ public class BasePage {
         }
     }
 
-//______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
     //Click element ID
 
@@ -267,8 +266,8 @@ public class BasePage {
      */
 
     protected WebElement waitIsClickableXpath(List<String> stepErrors, String elementName, String elementXpath) {
-        if (driver.findElement(By.id(elementXpath)) != null) {
-            return wait.until(ExpectedConditions.elementToBeClickable(By.id(elementXpath)));
+        if (driver.findElement(By.xpath(elementXpath)) != null) {
+            return wait.until(ExpectedConditions.elementToBeClickable(By.xpath(elementXpath)));
         } else {
             stepErrors.add(customError(elementName, "Given element is not clickable at the moment", stepErrors));
             return null;
