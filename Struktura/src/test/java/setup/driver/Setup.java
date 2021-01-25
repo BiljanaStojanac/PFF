@@ -1,7 +1,7 @@
 package setup.driver;
 
+import io.cucumber.java.Before;
 import utilities.ConfigurationReader;
-import cucumber.api.java.Before;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.log4j.BasicConfigurator;
 import org.openqa.selenium.Capabilities;

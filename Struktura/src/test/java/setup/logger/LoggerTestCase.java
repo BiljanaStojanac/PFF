@@ -1,8 +1,5 @@
 package setup.logger;
 
-import cucumber.api.Scenario;
-
-import java.time.Instant;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -124,7 +121,7 @@ public class LoggerTestCase {
 
     @Override
     public String toString() {
-        return "[ CLA-" + this.numOfTestCase + " ]" + nameOfTestCase + "  Status: " + status;
+        return "[ FBK - " + this.numOfTestCase + " ]" + nameOfTestCase + "  Status: " + status;
     }
 
 

@@ -1,13 +1,13 @@
 package runner;
 
-import cucumber.api.CucumberOptions;
 
-import cucumber.api.junit.Cucumber;
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/resources/features/registration.feature",
-        strict = false,
+        strict = true,
         plugin = "pretty",
         glue = {"setup.driver",
                 "keywordsAndSteps/registration"})

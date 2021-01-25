@@ -1,5 +1,6 @@
 package base;
 
+import keywordsAndSteps.registration.RegistrationSteps;
 import setup.logger.LoggerController;
 import setup.logger.LoggerStep;
 import setup.logger.LoggerTestCase;
@@ -48,7 +49,7 @@ public class StepHandlers {
 
     public void stepName(String myAnnotation, boolean isExpected) {
         String firstSubString = myAnnotation.substring(myAnnotation.indexOf('='), myAnnotation.indexOf(")"));
-        String name = firstSubString.substring(10, firstSubString.length());
+        String name = firstSubString.substring(1, firstSubString.length());
         currentStep = new LoggerStep(name, isExpected);
         System.out.println(name);
     }

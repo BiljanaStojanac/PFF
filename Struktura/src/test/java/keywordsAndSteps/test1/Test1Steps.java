@@ -1,11 +1,12 @@
 package keywordsAndSteps.test1;
 
 import base.BasePage;
-import cucumber.api.Scenario;
-import cucumber.api.java.Before;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+
+import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import setup.logger.LoggerController;
 
 import java.lang.reflect.Method;
@@ -27,8 +28,6 @@ public class Test1Steps extends BasePage {
         currentTestCaseName = scenario.getName();
         startedTestCaseTime = Instant.now();
     }
-
-
 
     @Given("Go to amazon d{int} f{int}")
     public void goToAmazonDF(int arg0, int arg1) {
