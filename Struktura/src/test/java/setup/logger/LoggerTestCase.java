@@ -1,8 +1,5 @@
 package setup.logger;
 
-import cucumber.api.Scenario;
-
-import java.time.Instant;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -39,8 +36,8 @@ public class LoggerTestCase {
 
     public void getFrequencyAndDamage() {
         String test = extractInt(nameOfTestCase);
-        frequency = Integer.parseInt(String.valueOf(test.charAt(0)));
-        damage = Integer.parseInt(String.valueOf(test.charAt(1)));
+//        frequency = Integer.parseInt(String.valueOf(test.charAt(0)));
+//        damage = Integer.parseInt(String.valueOf(test.charAt(1)));
     }
 
 
@@ -124,7 +121,7 @@ public class LoggerTestCase {
 
     @Override
     public String toString() {
-        return "[ CLA-" + this.numOfTestCase + " ]" + nameOfTestCase + "  Status: " + status;
+        return "[ FBK - " + this.numOfTestCase + " ]" + nameOfTestCase + "  Status: " + status;
     }
 
 

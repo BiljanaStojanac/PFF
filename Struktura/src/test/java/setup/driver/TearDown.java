@@ -1,8 +1,8 @@
 package setup.driver;
 
 
-import cucumber.api.Scenario;
-import cucumber.api.java.After;
+import io.cucumber.java.After;
+import io.cucumber.java.Scenario;
 import org.openqa.selenium.WebDriver;
 
 public class TearDown {
