@@ -72,15 +72,15 @@
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.5" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.7.5" level="project" />
     <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: io.github.bonigarcia:webdrivermanager:4.2.2" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.google.code.gson:gson:2.8.6" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.apache.httpcomponents.client5:httpclient5:5.0.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.apache.httpcomponents.core5:httpcore5:5.0.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.apache.httpcomponents.core5:httpcore5-h2:5.0.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.rauschig:jarchivelib:1.1.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.apache.commons:commons-compress:1.20" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.jsoup:jsoup:1.13.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: io.cucumber:gherkin:5.1.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: io.cucumber:gherkin-jvm-deps:1.0.4" level="project" />
+    <orderEntry type="library" name="Maven: io.github.bonigarcia:webdrivermanager:4.2.2" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents.client5:httpclient5:5.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents.core5:httpcore5:5.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents.core5:httpcore5-h2:5.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.rauschig:jarchivelib:1.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-compress:1.20" level="project" />
+    <orderEntry type="library" name="Maven: org.jsoup:jsoup:1.13.1" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:gherkin:5.1.0" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:gherkin-jvm-deps:1.0.4" level="project" />
   </component>
 </module>

@@ -16,7 +16,9 @@ public HomePage(WebDriver driver)
 {
     this.driver = driver;
 }
+
     private By search = By.id("twotabsearchtextbox");
+
 
     public void enterSearchText(String text){
 
