@@ -8,6 +8,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.cucumber.java.Before;
+import org.junit.jupiter.api.BeforeEach;
 
 import java.lang.reflect.Method;
 import java.time.Instant;
@@ -22,7 +23,7 @@ public class RegistrationSteps extends BasePage {
         registrationKeywords = new RegistrationKeywords();
     }
 
-    @Before
+    @BeforeEach
     public void getStoryName(Scenario scenario) {
         currentTestCaseName = scenario.getName();
         //startedTestCaseTime = Instant.now();
